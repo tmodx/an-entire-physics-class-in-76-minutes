@@ -1,0 +1,241 @@
+% \documentclass{article}
+% \usepackage{graphicx} % Required for inserting images
+% \usepackage{amsmath}
+
+% \begin{document}
+
+
+
+1. Gauss's Law
+
+\[
+\oint \vec{E} \cdot d\vec{A} = \frac{q_{\text{enc}}}{\epsilon_0}
+\]
+
+2. Gauss's Law for Magnetism
+
+\[
+\oint \vec{B} \cdot d\vec{A} = 0
+\]
+
+3. Ampere's Law
+
+\[
+\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d \phi_E}{dt}
+\]
+
+4. Faraday's Law
+
+\[
+\oint (\vec{E} + \vec{v} \times \vec{B}) \cdot d\vec{l} = -\frac{d \phi_B}{dt}
+\]
+
+\vspace{1em}
+
+Assume Free Space (no charges or currents)
+
+\vspace{1em}
+
+1. Gauss's Law
+
+\[
+\oint \vec{E} \cdot d\vec{A} = 0
+\]
+
+2. Gauss's Law for Magnetism
+
+\[
+\oint \vec{B} \cdot d\vec{A} = 0
+\]
+
+3. Ampere's Law
+
+\[
+\oint \vec{B} \cdot d\vec{l} = \mu_0 \epsilon_0 \frac{d \phi_E}{dt}
+\]
+
+4. Faraday's Law
+
+\[
+\oint \vec{E} \cdot d\vec{l} = -\frac{d \phi_B}{dt}
+\]
+
+\vspace{1em}
+
+Transform with Stokes' Theorem
+
+\[
+\int_C \vec{F} \cdot d\vec{l} = \iint_A (\nabla \times \vec{F}) \cdot d\vec{A}
+\]
+
+and the Divergence Theorem
+
+\[
+\iint_A \vec{F} \cdot d\vec{A} = \iiint_V (\nabla \cdot \vec{F}) \cdot dV
+\]
+
+(note each integral is closed across the entire curve/surface/volume)
+
+\vspace{1em}
+
+1. 
+
+\[
+\oint \vec{E} \cdot d\vec{A} = 0
+\]
+
+\[
+\iiint_V \nabla \cdot \vec{E} \, dV = 0
+\]
+
+\[
+\nabla \cdot \vec{E} = 0
+\]
+
+\vspace{1em}
+
+2.
+
+\[
+\oint \vec{B} \cdot d\vec{A} = 0
+\]
+
+\[
+\iiint_V \nabla \cdot \vec{B} \, dV = 0
+\]
+
+\[
+\nabla \cdot \vec{B} = 0
+\]
+
+\vspace{1em}
+
+3.
+
+\[
+\oint \vec{B} \cdot d\vec{l} = \mu_0 \epsilon_0 \frac{d \phi_E}{dt}
+\]
+
+\[
+\iint_A (\nabla \times \vec{B}) \cdot d\vec{A} = \mu_0 \epsilon_0 \frac{d}{dt} \int \vec{E} \cdot d\vec{A}
+\]
+
+\[
+\iint_A (\nabla \times \vec{B}) \cdot d\vec{A} = \int (\mu_0 \epsilon_0 \frac{d}{dt} \vec{E}) \cdot d\vec{A}
+\]
+
+\[
+\nabla \times \vec{B} = \mu_0 \epsilon_0 \frac{d \vec{E}}{dt}
+\]
+
+\vspace{1em}
+
+4. 
+
+\[
+\oint \vec{E} \cdot d\vec{l} = -\frac{d \phi_B}{dt}
+\]
+
+\[
+\iint_A (\nabla \times \vec{E}) \cdot d\vec{A} = -\frac{d \phi_B}{dt}
+\]
+
+\[
+\iint_A (\nabla \times \vec{E}) \cdot d\vec{A} = -\frac{d}{dt} \int \vec{B} \cdot d\vec{A}
+\]
+
+\[
+\iint_A (\nabla \times \vec{E}) \cdot d\vec{A} = \int -\frac{d \vec{B}}{dt} \cdot d\vec{A}
+\]
+
+\[
+\nabla \times \vec{E} = -\frac{d \vec{B}}{dt}
+\]
+
+\vspace{1em}
+
+Maxwell's Equations in Differential Form:
+
+\vspace{1em}
+
+1. Gauss's Law
+
+\[
+\nabla \cdot \vec{E} = 0
+\]
+
+2. Gauss's Law for Magnetism
+
+\[
+\nabla \cdot \vec{B} = 0
+\]
+
+3. Ampere's Law
+
+\[
+\nabla \times \vec{B} = \mu_0 \epsilon_0 \frac{d \vec{E}}{dt}
+\]
+
+4. Faraday's Law
+
+\[
+\nabla \times \vec{E} = -\frac{d \vec{B}}{dt}
+\]
+
+\vspace{1em}
+
+Take the curl of Faraday's Law:
+
+\vspace{1em}
+
+\[
+\nabla \times (\nabla \times \vec{E}) = \nabla \times \left(-\frac{d \vec{B}}{dt}\right)
+\]
+
+\[
+\nabla \times (\nabla \times \vec{E}) = -\frac{d}{dt} (\nabla \times \vec{B})
+\]
+
+\vspace{1em}
+
+Substitute in Ampere's Law:
+
+\vspace{1em}
+
+\[
+\nabla \times (\nabla \times \vec{E}) = -\frac{d}{dt} \left(\mu_0 \epsilon_0 \frac{d \vec{E}}{dt}\right)
+\]
+
+\vspace{1em}
+
+Use the curl of curl identity:
+
+\[
+\nabla \times (\nabla \times \vec{F}) = \nabla (\nabla \cdot \vec{F}) - \nabla^2 \vec{F}
+\]
+
+\[
+\nabla \cdot (\nabla \cdot \vec{E}) - \nabla^2 \vec{E} = -\frac{d}{dt} \left(\mu_0 \epsilon_0 \frac{d \vec{E}}{dt}\right)
+\]
+
+The first term goes away because of Gauss's Law:
+
+\[
+- \nabla^2 \vec{E} = -\mu_0 \epsilon_0 \frac{d^2 \vec{E}}{dt^2}
+\]
+
+Assume \(\vec{E}\) only goes in the x-direction:
+
+\[
+- \frac{\partial^2 \vec{E}}{\partial x^2} = -\mu_0 \epsilon_0 \frac{d^2 \vec{E}}{dt^2}
+\]
+
+\vspace{1em}
+
+\[
+\frac{\partial^2 \vec{E}}{\partial x^2} = \mu_0 \epsilon_0 \frac{d^2 \vec{E}}{dt^2}
+\]
+
+
+
+% \end{document}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512mm"
+   height="512mm"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="water-surface.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.38457115"
+     inkscape:cx="1313.151"
+     inkscape:cy="1062.2222"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#e8eee6;stroke-width:8.70479"
+       id="path1"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="109.45946"
+       sodipodi:cy="89.999992"
+       sodipodi:r1="71.92765"
+       sodipodi:r2="35.963821"
+       sodipodi:arg1="-0.52359878"
+       sodipodi:arg2="0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 171.75063,54.036167 109.45946,161.92764 47.168285,54.036167 Z"
+       inkscape:transform-center-y="12.675829"
+       transform="matrix(0.70492141,0,0,0.70492141,174.36772,168.28885)"
+       inkscape:transform-center-x="-2.691071e-06" />
+    <path
+       style="fill:none;stroke:#e8eee6;stroke-width:3.49414"
+       d="m 218.71165,309.60017 h 65.63264"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#e8eee6;stroke-width:2.99034"
+       d="m 227.49264,316.08524 h 48.07078"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#e8eee6;stroke-width:2.39226"
+       d="m 236.14538,321.7205 h 30.7653"
+       id="path4" />
+  </g>
+</svg>
